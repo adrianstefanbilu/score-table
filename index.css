@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Scoreboard-LED;
+    src: url(Scoreboard-LED.ttf);
+  }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(41, 41, 118);
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    font-family: Scoreboard-LED;
+    position: relative;
+
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+.guests{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 20px 0px 0px 0px;
+    background-color: transparent;
+
+}
+
+#black-background1{
+    background-color: black;
+    color: rgb(222, 9, 9);
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 7px 0px 0px 0px;
+}
+
+#black-background2{
+    background-color: black;
+    color: rgb(222, 9, 9);
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 7px 0px 0px 0px;
+}
+
+.button{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    width: 30px;
+    aspect-ratio: 1;
+    border-radius: 5px;
+}
+
+#reset{
+    aspect-ratio: 0;
+    width: 60px;
+    position: absolute;
+    top: 47%;
+    left: 44%;
+
+}
